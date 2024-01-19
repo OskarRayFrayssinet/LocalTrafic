@@ -3,12 +3,12 @@ public class Plane implements Drivable {
 
     @Override
     public void drive() {
-        System.out.println("fly#" + this.planeNr);
+        System.out.println("depature#" + this.planeNr);
     }
 
     @Override
     public void stop() {
-        System.out.println("fly#" + this.planeNr);
+        System.out.println("arrive#" + this.planeNr);
 
     }
 }
