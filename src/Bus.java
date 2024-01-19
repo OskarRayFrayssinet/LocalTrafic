@@ -1,7 +1,8 @@
 // Oskar Ray-Frayssinet, oskar.ray.frayssinet@iths.se
-public class Bus implements Drivable{
+public class Bus extends PublicTransport{
     private int busNumber;
-    public Bus(int busNumber){
+    public Bus(String vehicleNumber, int busNumber){
+        super(vehicleNumber);
         this.busNumber = busNumber;
     }
 
@@ -13,6 +14,10 @@ public class Bus implements Drivable{
     public void stop() {
 
         System.out.println("STOPING BUS#" + this.busNumber);
+    }
+
+    public void setTotalSeats(int totalSeats){
+        setTotalSeats(totalSeats);
     }
 
     @Override
