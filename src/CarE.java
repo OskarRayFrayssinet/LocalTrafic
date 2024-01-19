@@ -1,8 +1,8 @@
 // Oskar Ray-Frayssinet, oskar.ray.frayssinet@iths.se , Emanuel sleyman
-public class Car implements Drivable{
+public class CarE implements Drivable{
     private String regNr;
 
-    public Car(String regNr){
+    public CarE(String regNr){
         this.regNr = regNr;
     }
 
