@@ -6,10 +6,12 @@ public class Bus implements Drivable{
     }
 
     public void drive() {
+
         System.out.println("DRIVING BUS#" + this.busNumber);
     }
 
     public void stop() {
+
         System.out.println("STOPING BUS#" + this.busNumber);
     }
 
