@@ -6,6 +6,8 @@ public class Main {
         System.out.println(b1.getVehicleNumber());
 
         printIfPublicTransport(b1);
+        FighterJet f1 = new FighterJet("Gripen A17", 8, "Sweden");
+        System.out.println(f1);
 
     }
 
